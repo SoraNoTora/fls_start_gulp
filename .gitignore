@@ -27,3 +27,4 @@ $RECYCLE.BIN/
 node_modules
 dist
 src/img
+fls_start_gulp
