@@ -14,18 +14,18 @@
 		"gulp-file-include": "latest",
 		"gulp-fonter": "latest",
 		"gulp-group-css-media-queries": "latest",
-		"gulp-imagemin": "latest",
-		"gulp-newer": "latest",
-		"gulp-plumber": "latest",
-		"gulp-rename": "latest",
 		"gulp-sass": "latest",
-		"gulp-ttf2woff": "latest",
-		"gulp-ttf2woff2": "latest",
 		"gulp-uglify-es": "latest",
 		"gulp-webp-html": "latest",
 		"gulp-webpcss": "latest",
 		"imagemin-webp": "latest",
 		"transform-runtime": "0.0.0",
-		"webp-converter": "2.2.3"
+		"webp-converter": "2.2.3",
+		"gulp-imagemin": "latest",
+		"gulp-newer": "latest",
+		"gulp-plumber": "latest",
+		"gulp-rename": "latest",
+		"gulp-ttf2woff": "latest",
+		"gulp-ttf2woff2": "latest"
 	}
 }
