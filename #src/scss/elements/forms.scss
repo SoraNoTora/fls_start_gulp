@@ -133,9 +133,10 @@ textarea {
 }
 .input {
 	border-radius: 0 !important;
+  border: 1px solid #ddd;
 	width: 100%;
 	display: block;
-	padding: 0px 20px;
+	padding: 5px 15px;
 	&._focus {
 	}
 	&._error {

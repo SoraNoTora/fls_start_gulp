@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('templates/_head.html',{
+	"title":"Элементы"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('templates/_header.html',{})
+			<main class="page">
+        <h1>Элементы</h1>
+        
+        <section class="_scr-item">
+          <h2>Табы</h2>
+          <div class="tabs-block _tabs">
+            <nav class="tabs-block__nav">
+              <div class="tabs-block__item _tabs-item _active">Таб №1</div>
+              <div class="tabs-block__item _tabs-item">Таб №2</div>
+              <div class="tabs-block__item _tabs-item">Таб №3</div>
+            </nav>
+            <div class="tabs-block__body">
+              <div class="tabs-block__block _tabs-block _active">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere dolor, accusamus magni natus hic quos fuga. Minus consequatur deserunt quo quod accusantium. Id totam ut quibusdam laborum recusandae quidem?
+                Ab explicabo excepturi omnis labore optio quidem ipsum cum exercitationem maxime numquam nemo, illo animi repudiandae voluptates voluptatibus distinctio sapiente? Laborum expedita animi dolorem autem excepturi alias, nostrum eum illum.
+                Ab explicabo excepturi omnis labore optio quidem ipsum cum exercitationem maxime numquam nemo, illo animi repudiandae voluptates voluptatibus distinctio sapiente? Laborum expedita animi dolorem autem excepturi alias, nostrum eum illum.
+              </div>
+              <div class="tabs-block__block _tabs-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere dolor, accusamus magni natus hic quos fuga. Minus consequatur deserunt quo quod accusantium. Id totam ut quibusdam laborum recusandae quidem?
+                Ab explicabo excepturi omnis labore optio quidem ipsum cum exercitationem maxime numquam nemo, illo animi repudiandae voluptates voluptatibus distinctio sapiente? Laborum expedita animi dolorem autem excepturi alias, nostrum eum illum.
+              </div>
+              <div class="tabs-block__block _tabs-block">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere dolor, accusamus magni natus hic quos fuga. Minus consequatur deserunt quo quod accusantium. Id totam ut quibusdam laborum recusandae quidem?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere dolor, accusamus magni natus hic quos fuga. Minus consequatur deserunt quo quod accusantium. Id totam ut quibusdam laborum recusandae quidem?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere dolor, accusamus magni natus hic quos fuga. Minus consequatur deserunt quo quod accusantium. Id totam ut quibusdam laborum recusandae quidem?
+                Ab explicabo excepturi omnis labore optio quidem ipsum cum exercitationem maxime numquam nemo, illo animi repudiandae voluptates voluptatibus distinctio sapiente? Laborum expedita animi dolorem autem excepturi alias, nostrum eum illum.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="_scr-item">
+          <h2>Спойлеры</h2>
+          <div class="spoilers-block _spollers _one">
+            <div class="spoilers-block__item">
+              <div class="spoilers-block__item _spoller">Вопрос 1</div>
+              <div class="spoilers-block__body">Ответ</div>
+            </div>
+            <div class="spoilers-block__item">
+              <div class="spoilers-block__item _spoller">Вопрос 2</div>
+              <div class="spoilers-block__body">Ответ</div>
+            </div>
+            <div class="spoilers-block__item">
+              <div class="spoilers-block__item _spoller">Вопрос 3</div>
+              <div class="spoilers-block__body">Ответ</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="_scr-item">
+          <h2>Форма</h2>
+          <form action="#" class="form">
+            <div class="form__line">
+              <label for="" class="form__label"></label>
+              <input type="text" name="form[]" autocomplete="off" data-error="Ошибка" data-value="Плейсхолдер" class="input _req">
+            </div>
+            <button type="submit" class="form__btn btn">Отправить</button>
+          </form>
+        </section>
+
+        <section class="_scr-item">
+          <h3>Попап</h3>
+          <div>
+            <p>
+              <a href="#popup" class="_popup-link">Lorem</a> 
+              <a href="#massagename-message" class="_popup-link">Lorem</a>
+              <a href="#video" data-video="l517RX8lFRI" class="_popup-link">Lorem</a>
+            </p>
+          </div>
+        </section>
+
+        <section class="_scr-item">
+          <h2>Количество</h2>
+          <div class="quantity">
+            <div class="quantity__button quantity__button_minus">-</div>
+            <input type="text" value="1">
+            <div class="quantity__button quantity__button_plus">+</div>
+          </div>
+        </section>
+
+			</main>
+			@@include('templates/_footer.html',{})
+		</div>
+		@@include('templates/_popup.html',{})
+		@@include('templates/_js.html',{})
+	</body>
+</html>
